@@ -16,9 +16,7 @@ public class MyStage extends Stage {
 	
 	
     public MyStage(int[][] map, int numOfCoins) {
-    	showBounds(true);
-    	
-    	
+  	
     	List<int[]> freeSpace = new ArrayList<int[]>();
     	
     	//Interprets 2D Array and converts it into a map
