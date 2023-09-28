@@ -21,8 +21,8 @@ public class TitleStage extends Stage{
     public void update(){
     	
     	//Starts Level One, if user presses space
-    	Keyboard kb = getKeyboard();
-    	if(kb.isKeyPressed("space")){
+
+    	if(Mayflower.isKeyPressed(Keyboard.KEY_SPACE)){
     		getMayflower().setStage(new Level1(new Player()));
     	}
     	
